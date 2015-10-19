@@ -1,3 +1,7 @@
+components:
+  - src: .vim
+    dst: .vim
+
 config_files:
   - src: .bash_aliases
   - src: .bash_variables
