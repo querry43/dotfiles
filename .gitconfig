@@ -1,0 +1,19 @@
+[user]
+	email = querry43@gmail.com
+	name = Matt Harrington
+
+[push]
+	default = matching
+
+[alias]
+    review = "log --stat -p -w --patience --reverse -M -C -C --cc"
+    stat = status
+    wdiff = diff --color-words='[a-zA-Z0-9]+|.'
+    wlog  = log  --color-words='[a-zA-Z0-9]+|.'
+    wshow = show --color-words='[a-zA-Z0-9]+|.'
+
+[rerere]
+    enabled = 1
+
+[color]
+    ui = auto
