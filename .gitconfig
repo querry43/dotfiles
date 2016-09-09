@@ -17,3 +17,9 @@
 
 [color]
     ui = auto
+
+[diff]
+    noprefix = true
+
+[fetch]
+    prune = true

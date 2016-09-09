@@ -1,1 +1,3 @@
 # dotfiles
+
+Install with `curate`.
