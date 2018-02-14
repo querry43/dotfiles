@@ -116,3 +116,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+if [ -f ~/perl5/perlbrew/bin/perlbrew ]; then
+  PATH=~/perl5/perlbrew/bin:$PATH
+fi
