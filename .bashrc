@@ -120,3 +120,7 @@ fi
 if [ -f ~/perl5/perlbrew/bin/perlbrew ]; then
   PATH=~/perl5/perlbrew/bin:$PATH
 fi
+
+if [ -d ~/.cargo/bin ]; then
+  PATH=~/.cargo/bin:$PATH
+fi
