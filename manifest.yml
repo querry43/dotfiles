@@ -8,4 +8,5 @@ config_files:
   - src: .bashrc
   - src: .dircolors
   - src: .gitconfig
+  - src: .inputrc
   - src: .vimrc

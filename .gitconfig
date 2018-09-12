@@ -3,7 +3,7 @@
 	name = Matt Harrington
 
 [push]
-	default = matching
+	default = current
 
 [alias]
     review = "log --stat -p -w --patience --reverse -M -C -C --cc"
