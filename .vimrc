@@ -16,6 +16,9 @@ set modeline
 set modelines=5
 
 syntax on
+filetype plugin indent on
 
 autocmd BufEnter * lcd %:p:h
 autocmd BufNewFile,BufRead *.ino set filetype=cpp
+
+execute pathogen#infect()
