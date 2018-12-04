@@ -124,3 +124,6 @@ fi
 if [ -d ~/.cargo/bin ]; then
   PATH=~/.cargo/bin:$PATH
 fi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
