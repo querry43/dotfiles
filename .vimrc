@@ -1,4 +1,6 @@
-map ,b :BufExplorer<cr>
+let mapleader=','
+map <Leader>a :Tabularize /=<CR>
+map <Leader>b :BufExplorer<cr>
 
 set background=dark
 set expandtab
